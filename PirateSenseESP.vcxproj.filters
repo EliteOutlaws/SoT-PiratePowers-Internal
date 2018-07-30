@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CFG">
+      <UniqueIdentifier>{6c745a9a-4577-4cea-9932-dc44c28cd943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{43e6d5f6-407f-4400-bc4b-55269c7e5fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\umd">
+      <UniqueIdentifier>{3ad17cc7-49e9-4607-b9f6-09b0835f0ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\esm">
+      <UniqueIdentifier>{73c4f968-bc41-467d-a6ff-f1fb85230ebf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cMain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cDirectX.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cDrawings.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcMem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg.cpp">
+      <Filter>CFG</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hMain.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="hDirectX.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="hDrawings.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcMem.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg.h">
+      <Filter>CFG</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="FindPattern\FindPattern.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-3.0.0.slim.min.map">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\jquery-3.0.0.slim.min.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\jquery-3.0.0.slim.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\jquery-3.0.0.min.map">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\jquery-3.0.0.min.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\jquery-3.0.0.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\jquery-3.0.0-vsdoc.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Scripts\umd\popper.min.js.map">
+      <Filter>Scripts\umd</Filter>
+    </None>
+    <None Include="Scripts\umd\popper.min.js">
+      <Filter>Scripts\umd</Filter>
+    </None>
+    <None Include="Scripts\umd\popper.js.map">
+      <Filter>Scripts\umd</Filter>
+    </None>
+    <None Include="Scripts\umd\popper.js">
+      <Filter>Scripts\umd</Filter>
+    </None>
+    <None Include="Scripts\umd\popper-utils.min.js.map">
+      <Filter>Scripts\umd</Filter>
+    </None>
+    <None Include="Scripts\umd\popper-utils.min.js">
+      <Filter>Scripts\umd</Filter>
+    </None>
+    <None Include="Scripts\umd\popper-utils.js.map">
+      <Filter>Scripts\umd</Filter>
+    </None>
+    <None Include="Scripts\umd\popper-utils.js">
+      <Filter>Scripts\umd</Filter>
+    </None>
+    <None Include="Scripts\README.md">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\popper.min.js.map">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\popper.min.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\popper.js.map">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\popper.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\popper-utils.min.js.map">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\popper-utils.min.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\popper-utils.js.map">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\popper-utils.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\index.d.ts">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\esm\popper.min.js.map">
+      <Filter>Scripts\esm</Filter>
+    </None>
+    <None Include="Scripts\esm\popper.min.js">
+      <Filter>Scripts\esm</Filter>
+    </None>
+    <None Include="Scripts\esm\popper.js.map">
+      <Filter>Scripts\esm</Filter>
+    </None>
+    <None Include="Scripts\esm\popper.js">
+      <Filter>Scripts\esm</Filter>
+    </None>
+    <None Include="Scripts\esm\popper-utils.min.js.map">
+      <Filter>Scripts\esm</Filter>
+    </None>
+    <None Include="Scripts\esm\popper-utils.min.js">
+      <Filter>Scripts\esm</Filter>
+    </None>
+    <None Include="Scripts\esm\popper-utils.js.map">
+      <Filter>Scripts\esm</Filter>
+    </None>
+    <None Include="Scripts\esm\popper-utils.js">
+      <Filter>Scripts\esm</Filter>
+    </None>
+  </ItemGroup>
+</Project>
